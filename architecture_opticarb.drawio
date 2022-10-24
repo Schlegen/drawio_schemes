@@ -1,20 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T13:07:31.905Z" agent="5.0 (Windows)" etag="w4mbutjC07C4swMe_b8o" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T15:58:05.157Z" agent="5.0 (Windows)" etag="X-nexKT3d5T4nM86PUeU" version="20.5.1" type="github">
   <diagram id="UGLpWQPzaHl7IFxpticA" name="Page-1">
-    <mxGraphModel dx="3031" dy="1242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="6040" dy="3080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Logzwtub48yx_41mjkGW-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;connectable=0;allowArrows=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="400" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;connectable=0;allowArrows=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="70" width="370" height="350" as="geometry" />
+        </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-91" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;imageWidth=18;allowArrows=0;connectable=0;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="20" y="1180" width="940" height="70" as="geometry" />
+          <mxGeometry x="30" y="1280" width="940" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-72" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Problème d&#39;optimisation&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="313" y="490" width="370" height="50" as="geometry" />
+          <mxGeometry x="558" y="470" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-62" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;imageWidth=18;allowArrows=0;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="760" width="940" height="370" as="geometry" />
+          <mxGeometry x="20" y="870" width="960" height="370" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;connectable=0;allowArrows=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="70" width="940" height="370" as="geometry" />
+          <mxGeometry x="20" y="70" width="560" height="350" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -37,190 +43,224 @@
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-6" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;fichier excel&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;contenant un grand nombre de chroniques pour toutes les variables&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="430" y="150" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-14" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;données sur les variables exogènes &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(format variables selon les données)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="GMd4P8_Klf1V9hqmh4ww-14" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;scénarios sur les variables exogènes du problème&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="50" y="160" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="209.66000000000005" as="sourcePoint" />
-            <mxPoint x="610" y="209.99" as="targetPoint" />
+            <mxPoint x="630" y="210" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-17" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;bloc de création de l&#39;arbre de scénarios&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(à partir de la structure d&#39;arbre souhaitée)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="620" y="155" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="750" y="209.72000000000008" as="sourcePoint" />
-            <mxPoint x="800.0000000000002" y="210.05" as="targetPoint" />
+            <mxPoint x="770" y="209.72000000000008" as="sourcePoint" />
+            <mxPoint x="820.0000000000002" y="210.05" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;arbre de scénarios pour les données exogènes du problème&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="810" y="160" width="120" height="100" as="geometry" />
+        <mxCell id="GMd4P8_Klf1V9hqmh4ww-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;arbre de scénarios pour les données exogènes du problème (.pkl)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="835" y="160" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-24" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Traitement des données&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="305" y="80" width="370" height="50" as="geometry" />
+          <mxGeometry x="115" y="80" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;imageWidth=18;allowArrows=0;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="185" y="480" width="610" height="240" as="geometry" />
+          <mxGeometry x="450" y="460" width="530" height="370" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-26" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Problème d&#39;optimisation&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="305" y="490" width="370" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=11.428571428571429;endSize=6.666666666666666;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="940" y="210" as="sourcePoint" />
-            <mxPoint x="220" y="630" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="980" y="210" />
-              <mxPoint x="980" y="460" />
-              <mxPoint y="460" />
-              <mxPoint y="630" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="550" y="470" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="489" y="280" as="sourcePoint" />
-            <mxPoint x="489.41" y="325" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="489" y="300" />
-            </Array>
+            <mxPoint x="489.79" y="280" as="sourcePoint" />
+            <mxPoint x="490.20000000000005" y="325" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-34" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;bloc de visualisation&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;des données pour validation&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="430" y="330" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870" y="270.0000000000002" as="sourcePoint" />
-            <mxPoint x="870" y="320" as="targetPoint" />
+            <mxPoint x="894.76" y="270.0000000000002" as="sourcePoint" />
+            <mxPoint x="894.76" y="320" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-36" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;bloc de visualisation&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;des arbres de scénarios pour validation&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="805" y="330" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;graphes de visualisation des chroniques&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="240" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="430" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-41" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;graphes d&#39;illustration de l&#39;arbre de scénarios&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="590" y="340" width="150" height="60" as="geometry" />
+          <mxGeometry x="830" y="330" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-42" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="795" y="369.41" as="sourcePoint" />
-            <mxPoint x="745" y="369.71" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="369.82000000000005" as="sourcePoint" />
-            <mxPoint x="370" y="370.12" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-45" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Modélisation du problème d&#39;optimisation stochastique &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;multi-étapes comprenant :&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1) possibilité de prise en compte le risque (tail value at risk)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2) différents modes d&#39;attribution et d&#39;amortissement des coûts et des émissions&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="230" y="540" width="220" height="170" as="geometry" />
+        <mxCell id="GMd4P8_Klf1V9hqmh4ww-45" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Problème d&#39;optimisation stochastique multi-étapes&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="504" y="557.5" width="165" height="85" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-61" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=11.428571428571429;endSize=6.666666666666666;startArrow=none;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="630" as="sourcePoint" />
-            <mxPoint x="220" y="880" as="targetPoint" />
+            <mxPoint x="960" y="210" as="sourcePoint" />
+            <mxPoint x="40" y="590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="980" y="630" />
-              <mxPoint x="980" y="740" />
-              <mxPoint y="740" />
-              <mxPoint y="880" />
+              <mxPoint x="1000" y="210" />
+              <mxPoint x="1000" y="440" />
+              <mxPoint y="440" />
+              <mxPoint y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-64" value="Test des solutions sur des cas d&#39;application réels" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="407.5" y="830" width="165" height="95" as="geometry" />
-        </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-68" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Résolution du problème d&#39;optimisation&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;(méthode à déterminer selon la capacité de résolution des solveurs open source)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="530" y="560" width="220" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-70" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="630" as="sourcePoint" />
-            <mxPoint x="520" y="630" as="targetPoint" />
+            <mxPoint x="680" y="600" as="sourcePoint" />
+            <mxPoint x="730" y="599.6" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-71" value="&lt;div style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;Test et interprétation des solutions&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="238" y="770" width="520" height="50" as="geometry" />
+          <mxGeometry x="238" y="880" width="520" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-85" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="930" as="sourcePoint" />
-            <mxPoint x="200" y="990" as="targetPoint" />
+            <mxPoint x="445" y="1050" as="sourcePoint" />
+            <mxPoint x="195" y="1100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="440" y="950" />
-              <mxPoint x="200" y="950" />
+              <mxPoint x="445" y="1060" />
+              <mxPoint x="195" y="1060" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-86" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="489.80000000000007" y="930" as="sourcePoint" />
-            <mxPoint x="490" y="990" as="targetPoint" />
+            <mxPoint x="495" y="1050" as="sourcePoint" />
+            <mxPoint x="495" y="1100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="489.8" y="950" />
+              <mxPoint x="494.8000000000002" y="1060" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-87" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="930" as="sourcePoint" />
-            <mxPoint x="790" y="990" as="targetPoint" />
+            <mxPoint x="545" y="1050" as="sourcePoint" />
+            <mxPoint x="805" y="1100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="540" y="950" />
-              <mxPoint x="790" y="950" />
+              <mxPoint x="545" y="1060" />
+              <mxPoint x="805" y="1060" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-88" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 27px;&quot;&gt;Légende&amp;nbsp; &lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1189" width="140" height="50" as="geometry" />
+          <mxGeometry x="50" y="1289" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-89" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;bloc de code&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="185" y="1190" width="165" height="50" as="geometry" />
+          <mxGeometry x="195" y="1290" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-90" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;données d&#39;entrée&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="380" y="1190" width="165" height="50" as="geometry" />
+          <mxGeometry x="390" y="1290" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-93" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Comparaison des décisions et des performances moyennes obtenues par les approches stochastiques et déterministes&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="670" y="1000" width="250" height="100" as="geometry" />
+          <mxGeometry x="675" y="1110" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-94" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;résultats finaux&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="770" y="1190" width="165" height="50" as="geometry" />
+          <mxGeometry x="780" y="1290" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-95" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Indicateurs de coûts moyens de la décarbonation : &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;émissions abattues, émissions compensées&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="373" y="1000" width="250" height="100" as="geometry" />
+          <mxGeometry x="370" y="1110" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-96" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;graphes sur les trajectoires de décarbonations possibles selon la réalisation des incertitudes&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1000" width="250" height="100" as="geometry" />
+          <mxGeometry x="70" y="1110" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-97" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;résultats intermédiaires&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="575" y="1190" width="165" height="50" as="geometry" />
+          <mxGeometry x="585" y="1290" width="165" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-98" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Simulation des trajectoires de décarbonation liés aux solutions en situation réelle&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="243" y="830" width="510" height="95" as="geometry" />
+        <mxCell id="GMd4P8_Klf1V9hqmh4ww-98" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Simulation des trajectoires de décarbonation liées aux solutions en situation réelle&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="225" y="940" width="540" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GMd4P8_Klf1V9hqmh4ww-99" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;bloc de code&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="185" y="1189" width="165" height="50" as="geometry" />
+          <mxGeometry x="195" y="1289" width="165" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-102" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;création de l&#39;arbre de scénarios&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(à partir de la structure d&#39;arbre souhaitée)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="620" y="155" width="120" height="110" as="geometry" />
+        <mxCell id="GMd4P8_Klf1V9hqmh4ww-102" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;création de l&#39;arbre de scénarios&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="640" y="160" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-103" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;homogénéisation des données et augmentation du nombre de chroniques&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="GMd4P8_Klf1V9hqmh4ww-103" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;homogénéisation des formats et augmentation du nombre de chroniques&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="240" y="160" width="120" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-104" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;bloc de visualisation&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;des données pour validation&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="430" y="330" width="120" height="80" as="geometry" />
+        <mxCell id="GMd4P8_Klf1V9hqmh4ww-106" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Résolution du problème d&#39;optimisation&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(méthode à déterminer selon la capacité de résolution des solveurs open source)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="735" y="540" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-105" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;bloc de visualisation&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;des arbres de scénarios pour validation&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="805" y="330" width="130" height="80" as="geometry" />
+        <mxCell id="Logzwtub48yx_41mjkGW-5" value="&lt;div style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Création de l&#39;arbre &lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;des scénarios&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="70" width="230" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GMd4P8_Klf1V9hqmh4ww-106" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Résolution du problème d&#39;optimisation&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;(méthode à déterminer selon la capacité de résolution des solveurs open source)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="530" y="560" width="220" height="140" as="geometry" />
+        <mxCell id="Logzwtub48yx_41mjkGW-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="187.5" y="599.4999999999999" as="sourcePoint" />
+            <mxPoint x="237.5" y="599.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;arbre de scénarios pour les données coûts et émissions des actions (.pkl)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="250" y="550" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-11" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;graphes d&#39;illustration de l&#39;arbre de scénarios&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="720" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-12" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Calcul des coûts ou des facteurs d&#39;émission des actions &lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="545" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-13" value="&lt;div style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Calcul des coûts&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;et des émissions&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="460" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-16" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1) formules liant les données aux coûts te facteurs d&#39;émissions&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2) actions de référence&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="695" width="182.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="660" as="sourcePoint" />
+            <mxPoint x="314" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119.5" y="710" as="sourcePoint" />
+            <mxPoint x="119.5" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-20" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1) contraintes technico-économiques&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2) objectif de l&#39;optimisation&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="462.13" y="720" width="248.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-21" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Structure de l&#39;arbre de scénarios souhaité&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="635" y="330" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.1700000000001" y="320" as="sourcePoint" />
+            <mxPoint x="699.1700000000001" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="599.5000000000002" as="sourcePoint" />
+            <mxPoint x="491" y="600.09" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="586.12" y="710" as="sourcePoint" />
+            <mxPoint x="586" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="844.6000000000003" y="670.0000000000002" as="sourcePoint" />
+            <mxPoint x="844.6000000000003" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-28" value="Logs (information sur le problème et le déroulement de sa résolution)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="742.5" y="725" width="202.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Logzwtub48yx_41mjkGW-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=11.428571428571429;endSize=6.666666666666666;startArrow=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="600" as="sourcePoint" />
+            <mxPoint x="220" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="600" />
+              <mxPoint x="1000" y="850" />
+              <mxPoint y="850" />
+              <mxPoint y="990" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
