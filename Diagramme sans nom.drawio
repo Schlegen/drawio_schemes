@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T07:43:44.679Z" agent="5.0 (Windows)" etag="4peA1V3eU-k7Mz7Mb-aj" version="20.5.1" type="github"><diagram id="YrPUMRgpWzm4Fn-pUq0T" name="Page-1">ddG9DoMgEADgp2FXaNTO1talk0NnIlchQc8gjbZPXw1YS2wXcnx3cPwQlrfTxfBeXlGAJjQSE2EnQmma0Xlc4OngkHhojBKO4g0q9QKPkdeHEjAEhRZRW9WHWGPXQW0D48bgGJbdUYdde97ADqqa673elLDSaUbTzUtQjVw7x8nRZVq+FvubDJILHL+IFYTlBtG6qJ1y0Mvbre/i1p3/ZD8HM9DZHwvmYNt7ngQfxIo3</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-25T09:33:48.879Z" agent="5.0 (Windows)" etag="-xU58k8QK9m2vi6RC6ln" version="20.5.1" type="github">
+  <diagram id="YrPUMRgpWzm4Fn-pUq0T" name="Page-1">
+    <mxGraphModel dx="2927" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-2" value="Variable" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-3" value="+ name : string&#xa;+ chronicles : VarChroniclesSet&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-2">
+          <mxGeometry y="26" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-2">
+          <mxGeometry y="70" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-5" value="+ __init__(type): type&#xa;+__add__(self, Var or Expression) : Expression&#xa;+__sub__(self, Var or Expression) : Expression&#xa;+__rsub__(self, Var or Expression) : Expression&#xa;+__mul__(self, Var or Expression) : Expression&#xa;+__truediv__(self, Var or Expression) : Expression&#xa;+__rtruediv__(self, Var or Expression) : Expression&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-2">
+          <mxGeometry y="78" width="280" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-10" value="ScenarioTree" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="290" width="380" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-11" value="+ node_value : dict [variable_name -&gt; float]&#xa;+ sons : None or ScenarioTree[*]&#xa;+ struture : int[*]&#xa;+ timestamps : Timestamp[*]&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-10">
+          <mxGeometry y="26" width="380" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-10">
+          <mxGeometry y="100" width="380" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-13" value="+ __init__(self, dict [variable_name -&gt; float], None or ScenarioTree[*])&#xa;+ plot(variable_name:string, save_path)&#xa;+ contains_costs_and_ef(self) : bool&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-10">
+          <mxGeometry y="102" width="380" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-32" value="Expression" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-33" value="+ name : string&#xa;+ expression : [operator, Var or Expression,Var or Expression]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-32">
+          <mxGeometry y="26" width="350" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-32">
+          <mxGeometry y="70" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-35" value="+ evaluate_on_scenario_tree(self, ScenarioTree)&#xa;+ evaluate_on_chronicles_set(self, ChronicleSet)&#xa;+ __add__(self, Var or Expression) : Expression&#xa;+__mul__(self, Var or Expression) : Expression&#xa;+__truediv__(self, Var or Expression) : Expression&#xa;+_rtruediv(self, Var or Expression) : Expression&#xa;+__sub__(self, Var or Expression) : Expression&#xa;+__rsub__(self, Var or Expression) : Expression&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-32">
+          <mxGeometry y="78" width="350" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-37" value="VarChronicles" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-38" value="+ data : numpy array&#xa;+ n_chronicles : int&#xa;+ timestamps : int[*]&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-37">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-37">
+          <mxGeometry y="80" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-40" value="+ augmentations(int)&#xa;+ to_scenario_tree(int): ScenarioTree&#xa;+ draw_chronicles(int): numpy array&#xa;+ save(string) &#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-37">
+          <mxGeometry y="88" width="280" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-41" value="ChronicleSet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-42" value="+ variables: Variable[*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-41">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-41">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-44" value="+ from_excel(cls, string)&#xa;+ to_excel(self, string)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xvB01QNVO9UyKIm5b7mx-41">
+          <mxGeometry y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
