@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T08:23:44.745Z" agent="5.0 (Windows)" etag="O8YUJlJ8WYuaOPrKDk83" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T09:28:16.571Z" agent="5.0 (Windows)" etag="5ZuaA7nOXbNZflxuMe0O" version="20.5.1" type="github">
   <diagram id="YrPUMRgpWzm4Fn-pUq0T" name="Page-1">
-    <mxGraphModel dx="3123" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="3491" dy="2204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -496,7 +496,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4RM4NR4GC0Qe-5DVOWCv-75" value="CorrelatedVariables" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="-610" y="-310" width="380" height="360" as="geometry" />
+          <mxGeometry x="-610" y="-310" width="380" height="240" as="geometry" />
         </mxCell>
         <mxCell id="4RM4NR4GC0Qe-5DVOWCv-76" value="+ variables: CoScenarizedVariables&#xa;+ timestamps : Timestamp[*]&#xa;+ cogenerator: CoGenerator&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontColor=#1D3557;" parent="4RM4NR4GC0Qe-5DVOWCv-75" vertex="1">
           <mxGeometry y="26" width="380" height="74" as="geometry" />
@@ -504,8 +504,8 @@
         <mxCell id="4RM4NR4GC0Qe-5DVOWCv-77" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#457B9D;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" parent="4RM4NR4GC0Qe-5DVOWCv-75" vertex="1">
           <mxGeometry y="100" width="380" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="4RM4NR4GC0Qe-5DVOWCv-78" value="+ __init__()&#xa;+draw_chronicle()&#xa;+draw_chronicles(n_drawn)&#xa;+ to_excel()&#xa;+from_excel()&#xa;+draw_chronicles()&#xa;+set_cogenerator()&#xa;+__add__(self, other::Var or Expression) : Expression&#xa;+__sub__(self, other::Var or Expression) : Expression&#xa;+__rsub__(self, other::Var or Expression) : Expression&#xa;+__mul__(self, other::Var or Expression) : Expression&#xa;+__truediv__(self, other::Var or Expression) : Expression&#xa;+__rtruediv__(self, other::Var or Expression) : Expression&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontColor=#1D3557;" parent="4RM4NR4GC0Qe-5DVOWCv-75" vertex="1">
-          <mxGeometry y="108" width="380" height="252" as="geometry" />
+        <mxCell id="4RM4NR4GC0Qe-5DVOWCv-78" value="+ __init__()&#xa;+draw_chronicle()&#xa;+draw_chronicles(n_drawn)&#xa;+ to_excel()&#xa;+from_excel()&#xa;+draw_chronicles()&#xa;+set_cogenerator()&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontColor=#1D3557;" parent="4RM4NR4GC0Qe-5DVOWCv-75" vertex="1">
+          <mxGeometry y="108" width="380" height="132" as="geometry" />
         </mxCell>
         <mxCell id="4RM4NR4GC0Qe-5DVOWCv-79" value="" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;strokeColor=#457B9D;fontSize=15;fontColor=#1D3557;fillColor=none;labelBackgroundColor=none;" parent="1" connectable="0" vertex="1">
           <mxGeometry x="-218" y="-150" as="geometry" />
@@ -539,7 +539,7 @@
           <mxGeometry y="78" width="240" height="62" as="geometry" />
         </mxCell>
         <mxCell id="4RM4NR4GC0Qe-5DVOWCv-96" value="CoGenerator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="-990" y="-360" width="240" height="230" as="geometry" />
+          <mxGeometry x="-990" y="-360" width="240" height="250" as="geometry" />
         </mxCell>
         <mxCell id="4RM4NR4GC0Qe-5DVOWCv-97" value="+correlation_matrix :: np.array" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;fontSize=15;" parent="4RM4NR4GC0Qe-5DVOWCv-96" vertex="1">
           <mxGeometry y="26" width="240" height="44" as="geometry" />
@@ -547,15 +547,15 @@
         <mxCell id="4RM4NR4GC0Qe-5DVOWCv-98" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#457B9D;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" parent="4RM4NR4GC0Qe-5DVOWCv-96" vertex="1">
           <mxGeometry y="70" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="4RM4NR4GC0Qe-5DVOWCv-99" value="+__init__(self, name, &#xa;   timestamps,&#xa;   generator::ChronicleGenerator)&#xa;+set_correlation_matrix(self, &#xa;   correlation_matrix::numpy array)&#xa;+fit()&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;fontSize=15;" parent="4RM4NR4GC0Qe-5DVOWCv-96" vertex="1">
-          <mxGeometry y="78" width="240" height="152" as="geometry" />
+        <mxCell id="4RM4NR4GC0Qe-5DVOWCv-99" value="+__init__(self, name, &#xa;   timestamps,&#xa;   generator::ChronicleGenerator)&#xa;+set_correlation_matrix(self, corr)&#xa;+set_mu(self, mu)&#xa;+set_sigma(self,sigma)&#xa;+is_fitted()&#xa;+fit() &#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;fontSize=15;" parent="4RM4NR4GC0Qe-5DVOWCv-96" vertex="1">
+          <mxGeometry y="78" width="240" height="172" as="geometry" />
         </mxCell>
         <mxCell id="4RM4NR4GC0Qe-5DVOWCv-106" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4RM4NR4GC0Qe-5DVOWCv-78" target="4RM4NR4GC0Qe-5DVOWCv-88" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-710" y="60" as="sourcePoint" />
             <mxPoint x="-550" y="60" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-680" y="-76" />
+              <mxPoint x="-680" y="-136" />
               <mxPoint x="-680" y="-20" />
             </Array>
           </mxGeometry>
@@ -570,12 +570,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4RM4NR4GC0Qe-5DVOWCv-108" value="Apply on" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0.002;exitY=0.207;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.318;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4RM4NR4GC0Qe-5DVOWCv-99" target="4RM4NR4GC0Qe-5DVOWCv-89" edge="1">
+        <mxCell id="4RM4NR4GC0Qe-5DVOWCv-108" value="Apply on" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0.002;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.318;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4RM4NR4GC0Qe-5DVOWCv-99" target="4RM4NR4GC0Qe-5DVOWCv-89" edge="1">
           <mxGeometry x="0.0391" width="160" relative="1" as="geometry">
             <mxPoint x="-1170" y="-170" as="sourcePoint" />
             <mxPoint x="-1040" y="-50" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1040" y="-251" />
+              <mxPoint x="-1040" y="-240" />
               <mxPoint x="-1040" y="-50" />
             </Array>
             <mxPoint as="offset" />
