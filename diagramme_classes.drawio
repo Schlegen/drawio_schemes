@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T08:19:51.728Z" agent="5.0 (Windows)" etag="svyRTS0ZuLtixyFzOGP2" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T08:23:44.745Z" agent="5.0 (Windows)" etag="O8YUJlJ8WYuaOPrKDk83" version="20.5.1" type="github">
   <diagram id="YrPUMRgpWzm4Fn-pUq0T" name="Page-1">
-    <mxGraphModel dx="9001" dy="5309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="3123" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xvB01QNVO9UyKIm5b7mx-99" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;fonction pour générer les valeurs plausibles futures d&#39;une chronique à partir d&#39;une valeur des variables exogène à un instant t.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;gestion de correlations dans les variables&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontSize=15;fontColor=#1D3557;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1140" y="1210" width="1970" height="150" as="geometry" />
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-99" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;fonction pour générer les valeurs plausibles futures d&#39;une chronique à partir d&#39;une valeur des variables exogène à un instant t.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;gestion de correlations dans les variables&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontSize=15;fontColor=#1D3557;fillColor=none;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="-1140" y="1210" width="2010" height="150" as="geometry" />
         </mxCell>
         <mxCell id="xvB01QNVO9UyKIm5b7mx-77" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=11;connectable=0;allowArrows=0;strokeWidth=3;fillColor=none;strokeColor=#457B9D;pointerEvents=0;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="-1640" y="595" width="500" height="530" as="geometry" />
@@ -49,10 +49,10 @@
         <mxCell id="xvB01QNVO9UyKIm5b7mx-35" value="+ evaluate_on_scenario_tree(self, ScenarioTree)&#xa;+ evaluate_on_chronicles_set(self, ChronicleSet)&#xa;+ __add__(self, Var or Expression) : Expression&#xa;+__mul__(self, Var or Expression) : Expression&#xa;+__truediv__(self, Var or Expression) : Expression&#xa;+__rtruediv__(self, Var or Expression) : Expression&#xa;+__sub__(self, Var or Expression) : Expression&#xa;+__rsub__(self, Var or Expression) : Expression&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;fontSize=15;" parent="xvB01QNVO9UyKIm5b7mx-32" vertex="1">
           <mxGeometry y="82" width="440" height="158" as="geometry" />
         </mxCell>
-        <mxCell id="xvB01QNVO9UyKIm5b7mx-41" value="ChronicleSet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-41" value="ExogenousContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-130" y="130" width="410" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="xvB01QNVO9UyKIm5b7mx-42" value="+ variables: Variable[*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;fontSize=15;" parent="xvB01QNVO9UyKIm5b7mx-41" vertex="1">
+        <mxCell id="xvB01QNVO9UyKIm5b7mx-42" value="+ variables: Variable[*]&#xa;+ groupCorrelatedVariables : CorrelatedVariables[*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#1D3557;fontSize=15;" parent="xvB01QNVO9UyKIm5b7mx-41" vertex="1">
           <mxGeometry y="26" width="410" height="44" as="geometry" />
         </mxCell>
         <mxCell id="xvB01QNVO9UyKIm5b7mx-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#457B9D;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" parent="xvB01QNVO9UyKIm5b7mx-41" vertex="1">
